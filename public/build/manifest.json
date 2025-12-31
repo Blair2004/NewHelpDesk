@@ -1,0 +1,163 @@
+{
+  "_ChatBubbleLeftRightIcon-Cfksas56.js": {
+    "file": "assets/ChatBubbleLeftRightIcon-Cfksas56.js",
+    "name": "ChatBubbleLeftRightIcon",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_moment-C5S46NFB.js": {
+    "file": "assets/moment-C5S46NFB.js",
+    "name": "moment"
+  },
+  "_thread-HO_BQTKl.js": {
+    "file": "assets/thread-HO_BQTKl.js",
+    "name": "thread",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-ZK5aMlMR.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-4HU7gmEH.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/layouts/PublicLayout.vue",
+      "resources/js/pages/Home.vue",
+      "resources/js/pages/Login.vue",
+      "resources/js/layouts/DashboardLayout.vue",
+      "resources/js/pages/Dashboard.vue",
+      "resources/js/pages/Threads.vue",
+      "resources/js/pages/ThreadDetail.vue",
+      "resources/js/pages/Departments.vue",
+      "resources/js/pages/Customers.vue",
+      "resources/js/pages/Reports.vue",
+      "resources/js/pages/Settings.vue",
+      "resources/js/pages/Profile.vue"
+    ]
+  },
+  "resources/js/layouts/DashboardLayout.vue": {
+    "file": "assets/DashboardLayout-ZpzLZiFC.js",
+    "name": "DashboardLayout",
+    "src": "resources/js/layouts/DashboardLayout.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_ChatBubbleLeftRightIcon-Cfksas56.js"
+    ]
+  },
+  "resources/js/layouts/PublicLayout.vue": {
+    "file": "assets/PublicLayout-CHNgD-FA.js",
+    "name": "PublicLayout",
+    "src": "resources/js/layouts/PublicLayout.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/pages/Customers.vue": {
+    "file": "assets/Customers-DO-kM4n6.js",
+    "name": "Customers",
+    "src": "resources/js/pages/Customers.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_moment-C5S46NFB.js"
+    ]
+  },
+  "resources/js/pages/Dashboard.vue": {
+    "file": "assets/Dashboard-C_mljlWb.js",
+    "name": "Dashboard",
+    "src": "resources/js/pages/Dashboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/pages/Departments.vue": {
+    "file": "assets/Departments-g43L9_11.js",
+    "name": "Departments",
+    "src": "resources/js/pages/Departments.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/pages/Home.vue": {
+    "file": "assets/Home-XsEz2LH6.js",
+    "name": "Home",
+    "src": "resources/js/pages/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_ChatBubbleLeftRightIcon-Cfksas56.js"
+    ]
+  },
+  "resources/js/pages/Login.vue": {
+    "file": "assets/Login-CrI8KqMj.js",
+    "name": "Login",
+    "src": "resources/js/pages/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/pages/Profile.vue": {
+    "file": "assets/Profile-zdglw7os.js",
+    "name": "Profile",
+    "src": "resources/js/pages/Profile.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/pages/Reports.vue": {
+    "file": "assets/Reports-DBQZv-dC.js",
+    "name": "Reports",
+    "src": "resources/js/pages/Reports.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/pages/Settings.vue": {
+    "file": "assets/Settings-M-xj797C.js",
+    "name": "Settings",
+    "src": "resources/js/pages/Settings.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/pages/ThreadDetail.vue": {
+    "file": "assets/ThreadDetail-CYh79QwD.js",
+    "name": "ThreadDetail",
+    "src": "resources/js/pages/ThreadDetail.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_thread-HO_BQTKl.js",
+      "_moment-C5S46NFB.js"
+    ],
+    "css": [
+      "assets/ThreadDetail-KlWVxql7.css"
+    ]
+  },
+  "resources/js/pages/Threads.vue": {
+    "file": "assets/Threads-5YX_xrw-.js",
+    "name": "Threads",
+    "src": "resources/js/pages/Threads.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_thread-HO_BQTKl.js",
+      "_moment-C5S46NFB.js"
+    ]
+  }
+}
